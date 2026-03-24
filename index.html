@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de Adriana Soto, estudiante de Informática y desarrolladora web Front-end.">
+
+    <title>Adri | CV</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/favicon3.svg">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+
+    <header class="nav-principal">
+      <nav aria-label="Navegación principal">
+        <h1>
+          <a href="#home">
+            <img src="images/favicon3.svg" alt="Inicio - Adri">
+          </a>
+        </h1>
+
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="home" aria-label="Presentación">
+        <img src="images/profilecv.jpeg" alt="Foto Adriana">
+
+        <div class="home-texto">
+          <h2>Hola!</h2>
+          <p>
+            Me inclino más hacia la lógica y el código que hacia el diseño,
+            pero me gusta que las cosas también se vean bien.
+            Aún estoy aprendiendo y disfruto trabajar en equipo.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" aria-labelledby="titulo-about">
+        <header class="seccion-header">
+          <h2 id="titulo-about">Sobre mi</h2>
+        </header>
+
+        <article>
+          <h3>¿Quién soy?</h3>
+
+          <p>
+            Soy estudiante de Informática con interés en el desarrollo
+            Front-end, Back-end y la optimización de código. Me gusta
+            entender cómo funcionan las cosas por dentro. Me adapto bien
+            a los equipos de trabajo y valoro mucho la colaboración.
+          </p>
+        </article>
+      </section>
+
+      <section id="skills" aria-labelledby="titulo-skills">
+        <header class="seccion-header">
+          <h2 id="titulo-skills">Habilidades</h2>
+        </header>
+
+        <ul aria-label="Lista de tecnologías">
+          <li><img src="images/html.svg" alt="HTML5"></li>
+          <li><img src="images/css.svg" alt="CSS3"></li>
+          <li><img src="images/javascript.svg" alt="JavaScript"></li>
+          <li><img src="images/typescript.svg" alt="TypeScript"></li>
+          <li><img src="images/react.svg" alt="React"></li>
+          <li><img src="images/java.svg" alt="Java"></li>
+          <li><img src="images/ruby.svg" alt="Ruby"></li>
+          <li><img src="images/python.svg" alt="Python"></li>
+          <li><img src="images/mysql.svg" alt="MySQL"></li>
+          <li><img src="images/git.svg" alt="Git"></li>
+          <li><img src="images/github.svg" alt="GitHub"></li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-labelledby="titulo-projects">
+        <header class="seccion-header">
+          <h2 id="titulo-projects">Proyectos</h2>
+        </header>
+
+        <div class="projects-container">
+          <article class="project">
+            <img src="images/journal.jpg" alt="Foto Bullet Journal">
+            <h3>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                Bullet Journal
+              </a>
+            </h3>
+            <p>
+              Aplicación móvil para organizar tareas y pensamientos.
+              Colaboré en el desarrollo implementando funcionalidades en React Native y manejo de base de datos.
+            </p>
+            <ul class="tools" aria-label="Tecnologías usadas">
+              <li>React Native</li>
+              <li>TypeScript</li>
+              <li>SQLite</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <img src="images/profile.svg" alt="Foto del CV">
+            <h3>
+              <a href="https://github.com/r4ccy/cv" target="_blank" rel="noopener noreferrer">
+                CV
+              </a>
+            </h3>
+            <p>Sitio web personal desarrollado como proyecto académico, enfocado en la práctica de HTML, CSS y JavaScript.</p>
+            <ul class="tools" aria-label="Tecnologías usadas">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <img src="images/raccyfy.jpg" alt="Foto Raccyfy">
+            <h3>
+              <a href="https://github.com/r4ccy/raccyfy---" target="_blank" rel="noopener noreferrer">
+                Raccyfy
+              </a>
+            </h3>
+            <p>Aplicación web que simula la experiencia de Spotify Wrapped mostrando estadísticas personalizadas.</p>
+            <ul class="tools" aria-label="Tecnologías usadas">
+              <li>React</li>
+              <li>CSS</li>
+              <li>Typescript</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <img src="images/criba.jpg" alt="Proyecto criba">
+            <h3>
+              <a href="https://github.com/r4ccy/Criba-Ruby---" target="_blank" rel="noopener noreferrer">
+                Criba de Eratóstenes
+              </a>
+            </h3>
+            <p>Programa en Ruby que implementa el algoritmo de la criba de Eratóstenes para encontrar números primos.</p>
+            <ul class="tools" aria-label="Tecnologías usadas">
+              <li>Ruby</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <img src="images/git.svg" alt="Proyecto Curso Git">
+            <h3>
+              <a href="https://github.com/r4ccy/CursoGitSCESI" target="_blank" rel="noopener noreferrer">
+                Curso Git
+              </a>
+            </h3>
+            <p>
+              Repositorio educativo que funciona como un curso de Git y GitHub.
+              Cada rama representa un tema distinto (introducción, manejo de ramas, merge, entre otros),
+              permitiendo aprender de forma estructurada y práctica.
+            </p>
+            <ul class="tools" aria-label="Tecnologías usadas">
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="titulo-contact">
+        <header class="seccion-header">
+          <h2 id="titulo-contact">Contacto</h2>
+        </header>
+
+        <p class="contact-descripcion">Si quieres contactarme, puedes hacerlo por cualquiera de estos medios.</p>
+
+        <ul class="contact-list" aria-label="Medios de contacto">
+          <li>
+            <a class="contact-link" href="mailto:adrianasotojimenez3@gmail.com">
+              <img src="images/gmail.svg" alt="Gmail">
+              Gmail
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer">
+              <img src="images/linkedin.svg" alt="LinkedIn">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://github.com/r4ccy" target="_blank" rel="noopener noreferrer">
+              <img src="images/github.svg" alt="GitHub">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
