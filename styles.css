@@ -344,6 +344,10 @@ nav ul li a {
     padding-bottom: var(--espacio-grande);
   }
 
+  .nav-principal {
+    position: static;
+  }
+
   /* Home en fila: imagen a la izquierda,
      hola! y parrafo apilados a la derecha */
   #home {
