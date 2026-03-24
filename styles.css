@@ -337,7 +337,7 @@ nav ul li a {
 }
 
 
-@media (orientation: landscape) and (max-width: 56rem) {
+@media (orientation: landscape){
 
   section {
     padding-top: var(--espacio-grande);
